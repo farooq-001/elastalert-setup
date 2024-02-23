@@ -45,8 +45,8 @@ EOF
 sudo systemctl daemon-reload
 
 # Start and enable the ElastAlert service
-sudo systemctl start elastalert.service
-sudo systemctl enable elastalert.service
+echo -n "sudo systemctl start elastalert.service"
+echo -n "sudo systemctl enable elastalert.service"
 
 
 
